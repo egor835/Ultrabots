@@ -1,0 +1,13 @@
+{
+    "V1_token": "place_token_here",
+    "V2_token": "place_token_here",
+    "Gabriel_token": "place_token_here",
+    "openAI_key": "place_api_key_here",
+    "model": "text-davinci-003",
+    "tokens": 512,
+    "log_channel": 1234567890,
+    "moderator_role": "place_role_here",
+    "bot_management_role": "place_role_here",
+    "muted_role": "place_role_here",
+    "catrole":"place_role_here"
+}
