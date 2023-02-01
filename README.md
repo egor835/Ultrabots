@@ -10,11 +10,13 @@ V2: тот чел, на котором держится всё, умеет ба�
 Gabriel: чел, который пиздит и нихуя не делает (chatGPT)
 
 ## Установка:
-Заполнить config.json с соблюдением синтаксиса
-
-После в терминале:
 ```
 git clone https://github.com/egor835/Ultrabots
+```
+
+Заполнить config.json с соблюдением синтаксиса
+
+```
 apt install ffmpeg
 pip3 install discord.py simpledemotivators openai asgiref
 cd Ultrabots && python3 main.py
