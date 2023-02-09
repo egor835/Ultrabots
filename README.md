@@ -1,7 +1,7 @@
 # Ultrabots
 Ultrakill боты для дискорда
 
-![Screenshot 2023-01-30 at 22 19 04](https://user-images.githubusercontent.com/90187830/215574041-fedec490-3f00-4b97-a881-d0a00196ddf9.png)
+![Screenshot 2023-02-09 at 14 32 19](https://user-images.githubusercontent.com/90187830/217801433-c50c314e-04a6-4b1f-bb83-391f00574b13.png)
 
 V1: бот-клоун, умеет кидать монетку, конвертировать видео, делать мемы (демотиваторы), слать стикеры
 
