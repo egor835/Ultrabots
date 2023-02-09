@@ -12,7 +12,7 @@ config = responses.get_config()
 intents = discord.Intents.default()
 intents.members = True
 intents.message_content = True
-activity = discord.Game(name="монетку с вами даунами")
+activity = discord.Game(name="!coin")
 
 bot = commands.Bot(command_prefix='!', help_command = None, intents=intents, activity=activity, status=discord.Status.online)
 
