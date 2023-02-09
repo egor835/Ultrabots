@@ -192,7 +192,7 @@ async def dem(ctx, *, string):
             os.remove("demresult.jpg")
             os.remove(name)
     else:
-        await ctx.send("пшёл нахуй отсюда.")
+        await ctx.send("Эта команда отключена в DM.")
 
 @bot.command()
 async def news(ctx):
