@@ -10,7 +10,7 @@ config = responses.get_config()
 intents = discord.Intents.default()
 intents.members = True
 intents.message_content = True
-activity = discord.Activity(name="ваши пиздежи модераторам", type=2)
+activity = discord.Activity(name="Meganeko – The Cyber Grind", type=2)
 
 bot = commands.Bot(command_prefix='!', help_command = None, intents=intents, activity=activity, status=discord.Status.online)
 
