@@ -1,7 +1,5 @@
-import openai
+from revChatGPT.Official import AsyncChatbot
 import json
-from asgiref.sync import sync_to_async
-
 
 def get_config() -> dict:
     import os
@@ -16,19 +14,12 @@ def get_config() -> dict:
     return config
 
 config = get_config()
-openai.api_key = config['openAI_key']
+openAI_key = config['openAI_key']
+openAI_model = config["model"]
+chatbot = AsyncChatbot(api_key=openAI_key, engine=openAI_model)
 
 async def handle_response(message) -> str:
-    response = await sync_to_async(openai.Completion.create)(
-        model=config["model"],
-        prompt=message,
-        temperature=0.7,
-        max_tokens=config["tokens"],
-        top_p=1,
-        frequency_penalty=0.0,
-        presence_penalty=0.0,
-    )
-
-    responseMessage = response.choices[0].text
-
+    response = await chatbot.ask(message)
+    responseMessage = response["choices"][0]["text"]
+    print(responseMessage)
     return responseMessage
