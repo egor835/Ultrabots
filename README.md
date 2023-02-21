@@ -18,7 +18,7 @@ git clone https://github.com/egor835/Ultrabots
 
 ```
 apt install ffmpeg
-pip3 install discord.py simpledemotivators openai asgiref
+pip3 install discord.py simpledemotivators revChatGPT==1.2.1
 cd Ultrabots && python3 main.py
 ```
 Готово.
