@@ -24,3 +24,4 @@ cd Ultrabots && python3 main.py
 Готово.
 
 ###### Создатели: egor835#4096, parky#0220, fnm08#7660, Totally a cat#3606
+###### Код габриеля: https://github.com/Zero6992/chatGPT-discord-bot
