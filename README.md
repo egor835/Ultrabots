@@ -7,8 +7,6 @@ V1: бот, который умеет кидать монетку, конвер�
 
 V2: тот бот, на котором держится всё, умеет банить, кикать, мутить и перезапускать других ботов
 
-Gabriel: бот, который chatGPT
-
 ## Установка:
 ```
 git clone https://github.com/egor835/Ultrabots
@@ -18,10 +16,12 @@ git clone https://github.com/egor835/Ultrabots
 
 ```
 apt install ffmpeg
-pip3 install discord.py simpledemotivators revChatGPT==1.2.1
+pip3 install discord.py simpledemotivators
 cd Ultrabots && python3 main.py
 ```
 Готово.
 
 ###### Создатели: egor835#4096, parky#0220, fnm08#7660, Totally a cat#3606
 ###### Код габриеля: https://github.com/Zero6992/chatGPT-discord-bot
+
+Это последний релиз, bots is officially unmaintained.
